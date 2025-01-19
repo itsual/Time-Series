@@ -76,36 +76,41 @@ Developed by Facebook, this model is robust to missing data, outliers, and seaso
 
 ---
 
-## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/itsual/Time-Series.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd Time-Series-Analysis
-   ```
-3. Open the Jupyter Notebooks:
-   ```bash
-   jupyter notebook
-   ```
+# Time Series Analysis Notebooks
+
+| Topic                      | Description                                                                                       | Link                                                                                       |
+|----------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| Introduction to Time Series| Basic introduction to time series concepts and terminology.                                       | [Introduction to Time Series](https://github.com/marcopeix/time-series-analysis/blob/master/01%20-%20Introduction%20to%20Time%20Series.ipynb) |
+| Statistical Models         | Implementation and analysis using ARIMA models for time series forecasting.                       | [ARIMA Models](https://github.com/marcopeix/time-series-analysis/blob/master/02%20-%20ARIMA%20Models.ipynb) |
+|                            | Techniques and applications of exponential smoothing methods.                                     | [Exponential Smoothing](https://github.com/marcopeix/time-series-analysis/blob/master/03%20-%20Exponential%20Smoothing.ipynb) |
+|                            | Analysis and forecasting with state space models.                                                 | [State Space Models](https://github.com/marcopeix/time-series-analysis/blob/master/04%20-%20State%20Space%20Models.ipynb) |
+|                            | Seasonal ARIMA models for time series with seasonal components.                                   | [SARIMA Models](https://github.com/marcopeix/time-series-analysis/blob/master/05%20-%20SARIMA%20Models.ipynb) |
+| Deep Learning Models       | Using Long Short-Term Memory (LSTM) networks for time series forecasting.                         | [LSTM for Time Series](https://github.com/marcopeix/time-series-analysis/blob/master/06%20-%20LSTM%20for%20Time%20Series.ipynb) |
+|                            | Implementation of the Moirai model for time series forecasting.                                   | [Moirai](https://github.com/marcopeix/time-series-analysis/blob/master/Moirai.ipynb)       |
+|                            | Implementation of the N-BEATS (Neural Basis Expansion Analysis Time Series) model.                | [N-BEATS](https://github.com/marcopeix/time-series-analysis/blob/master/NBEATS.ipynb)      |
+|                            | Implementation of the N-HiTS model for time series forecasting.                                   | [N-HiTS](https://github.com/marcopeix/time-series-analysis/blob/master/NHiTS.ipynb)        |
+|                            | Implementation of the TSMixer model for time series forecasting.                                  | [TSMixer](https://github.com/marcopeix/time-series-analysis/blob/master/TSMixer.ipynb)     |
+|                            | Implementation of the TiDE (Time Series Deep Embedding) model.                                    | [TiDE](https://github.com/marcopeix/time-series-analysis/blob/master/TiDE.ipynb)           |
+|                            | Implementation of the Time-MOE (Mixture of Experts) model.                                        | [Time-MOE](https://github.com/marcopeix/time-series-analysis/blob/master/Time-MOE.ipynb)   |
+|                            | Implementation of the TimeGPT model for time series forecasting.                                  | [TimeGPT](https://github.com/marcopeix/time-series-analysis/blob/master/TimeGPT.ipynb)     |
+|                            | Implementation of the TimeLLM (Large Language Model) for time series forecasting.                 | [TimeLLM](https://github.com/marcopeix/time-series-analysis/blob/master/TimeLLM.ipynb)     |
+|                            | Implementation of the TimesNet model for time series forecasting.                                 | [TimesNet](https://github.com/marcopeix/time-series-analysis/blob/master/TimesNet.ipynb)   |
+| Advanced Techniques        | Blog post covering time series analysis using the BitCN model.                                    | [BitCN Blog](https://github.com/marcopeix/time-series-analysis/blob/master/bitcn_blog.ipynb) |
+|                            | Implementation of the Chronos model for time series forecasting.                                  | [Chronos](https://github.com/marcopeix/time-series-analysis/blob/master/chronos.ipynb)     |
+|                            | Time series analysis using conformal predictions.                                                 | [Conformal Predictions](https://github.com/marcopeix/time-series-analysis/blob/master/conformal_predictions_ts.ipynb) |
+|                            | Introduction to time series classification methods.                                               | [Intro to Time Series Classification](https://github.com/marcopeix/time-series-analysis/blob/master/intro_time_series_classification.ipynb) |
+|                            | Blog post covering time series analysis using the iTransformer model.                             | [iTransformer Blog](https://github.com/marcopeix/time-series-analysis/blob/master/itransformer_blog.ipynb) |
+|                            | Blog post covering time series analysis using the Kan model.                                      | [Kan Blog](https://github.com/marcopeix/time-series-analysis/blob/master/kan-blog.ipynb)   |
+|                            | Implementation of the LagLLama model for time series forecasting.                                 | [LagLLama](https://github.com/marcopeix/time-series-analysis/blob/master/lag_llama.ipynb)  |
+|                            | Blog post covering time series analysis using the RMO model.                                      | [RMO Blog](https://github.com/marcopeix/time-series-analysis/blob/master/rmok_blog.ipynb)  |
+|                            | Blog post covering time series analysis using the SoftS model.                                    | [SoftS Blog](https://github.com/marcopeix/time-series-analysis/blob/master/softs-blog.ipynb) |
+|                            | Implementation of the Theta model for time series forecasting.                                    | [Theta Model](https://github.com/marcopeix/time-series-analysis/blob/master/theta_model.ipynb) |
+|                            | Blog post covering time series analysis using the TimeMixer model.                                | [TimeMixer Blog](https://github.com/marcopeix/time-series-analysis/blob/master/timemixer_blog.ipynb) |
 
 ---
 
-## Sample Dataset
-
-![Dataset Icon](https://img.icons8.com/ios-filled/50/000000/table.png)  
-The repository includes the **international-airline-passengers.csv** dataset, a classic example for time series analysis.
-
-| Month      | Passengers |
-|------------|------------|
-| 1949-01    | 112        |
-| 1949-02    | 118        |
-| 1949-03    | 132        |
-| ...        | ...        |
-
----
+   ```
 
 ## Visualization Examples
 
