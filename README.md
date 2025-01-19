@@ -120,7 +120,7 @@ result.plot();
 ```
 
 ### Forecasting with ARIMA
-![ARIMA Icon](https://img.icons8.com/ios-filled/50/000000/chart.png)  
+![ARIMA Icon](https://img.icons8.com/ios-filled/100/000000/line-chart.png)  
 Implement ARIMA for predictive modeling:
 
 ```python
