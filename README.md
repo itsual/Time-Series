@@ -107,6 +107,7 @@ Developed by Facebook, this model is robust to missing data, outliers, and seaso
 |                            | Blog post covering time series analysis using the SoftS model.                                    | [SoftS Blog](https://github.com/marcopeix/time-series-analysis/blob/master/softs-blog.ipynb) |
 |                            | Implementation of the Theta model for time series forecasting.                                    | [Theta Model](https://github.com/marcopeix/time-series-analysis/blob/master/theta_model.ipynb) |
 |                            | Blog post covering time series analysis using the TimeMixer model.                                | [TimeMixer Blog](https://github.com/marcopeix/time-series-analysis/blob/master/timemixer_blog.ipynb) |
+|                            |Transfer learning for Time Series Forecasting                                                      | [Transfer Learning](https://github.com/Nixtla/transfer-learning-time-series) |
 
 ---
 
