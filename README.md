@@ -76,8 +76,7 @@ Developed by Facebook, this model is robust to missing data, outliers, and seaso
 
 ---
 
-
-# Time Series Analysis Notebooks
+## Time Series Analysis Notebooks
 
 | Topic                      | Description                                                                                       | Link                                                                                       |
 |----------------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -111,33 +110,6 @@ Developed by Facebook, this model is robust to missing data, outliers, and seaso
 
 ---
 
-   ```
-
-## Visualization Examples
-
-### Seasonal Decomposition
-![Seasonal Decomposition Icon](https://img.icons8.com/ios-filled/50/000000/statistics.png)  
-Decompose time series data into trend, seasonality, and residual components:
-
-```python
-from statsmodels.tsa.seasonal import seasonal_decompose
-result = seasonal_decompose(data['Passengers'], model='additive')
-result.plot();
-```
-
-### Forecasting with ARIMA
-![ARIMA Icon](https://img.icons8.com/ios-filled/100/000000/line-chart.png)  
-Implement ARIMA for predictive modeling:
-
-```python
-from statsmodels.tsa.arima.model import ARIMA
-model = ARIMA(data['Passengers'], order=(5,1,0))
-model_fit = model.fit()
-print(model_fit.summary())
-```
-
----
-
 ## Contribution Guidelines
 
 Contributions are welcome! Please create a pull request or raise an issue if you have suggestions for improvement.
@@ -153,3 +125,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![Thank You Icon](https://img.icons8.com/ios-filled/100/000000/handshake.png)
 
 Happy Forecasting! 🌟
+
+---
+
+## Visualization: Decision Tree for Model Selection
+
+![Refined Time Series Decision Tree](https://github.com/itsual/Time-Series/blob/main/Decision%20Tree%20To%20Choose%20Time%20Series%20Techniques.svg)
